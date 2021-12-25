@@ -9,6 +9,7 @@ using System.Security.Claims;
 using AppointmentScheduling.Models.ViewModels;
 using AppointmentScheduling.Utility;
 
+
 namespace AppointmentScheduling.Controllers.Api
 {
 

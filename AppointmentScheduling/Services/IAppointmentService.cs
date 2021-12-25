@@ -18,6 +18,8 @@ namespace AppointmentScheduling.Services
 
         public Task<int> AddUpdate(AppointmentVM model );
 
+        public List<AppointmentVM> DoctorsEventsById(string doctorId);
 
+        public List<AppointmentVM> PatientsEventsById(string patientId);
     }
 }
